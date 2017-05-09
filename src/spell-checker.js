@@ -108,8 +108,6 @@ function CodeMirrorSpellChecker(options) {
 
                 var ignore = link && link.match(word);
 
-                console.log(link);
-
                 if (word && !ignore) {
                     word = word[0]; // regex match body
                     if (
