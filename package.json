@@ -1,18 +1,11 @@
 {
-  "name": "react-codemirror",
-  "version": "0.3.0",
-  "description": "Codemirror",
+  "name": "react-codemirror-spellcheck",
+  "version": "0.0.1",
+  "description": "Codemirror with Spellcheck",
   "main": "lib/Codemirror.js",
   "author": "Jed Watson",
   "license": "MIT",
-  "homepage": "https://github.com/JedWatson/react-codemirror",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JedWatson/react-codemirror.git"
-  },
-  "bugs": {
-    "url": "https://github.com/JedWatson/react-codemirror/issues"
-  },
+  "homepage": "https://github.com/matt-mcdaniel/react-codemirror-spellcheck",
   "dependencies": {
     "classnames": "^2.2.5",
     "codemirror": "^5.18.2",
