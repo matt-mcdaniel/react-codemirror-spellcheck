@@ -16,7 +16,9 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "codemirror": "^5.18.2",
-    "lodash.debounce": "^4.0.8"
+    "codemirror-spell-checker": "^1.1.2",
+    "lodash.debounce": "^4.0.8",
+    "typo-js": "^1.0.3"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
