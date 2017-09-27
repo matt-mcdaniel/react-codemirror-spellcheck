@@ -4,7 +4,6 @@ const findDOMNode = ReactDOM.findDOMNode;
 const className = require('classnames');
 const debounce = require('lodash.debounce');
 const CodeMirrorSpellChecker = require('./spell-checker');
-//const CodeMirrorSpellChecker = require('codemirror-spell-checker');
 require('./overlay');
 
 function normalizeLineEndings(str) {
@@ -13,18 +12,6 @@ function normalizeLineEndings(str) {
 }
 
 const CodeMirror = React.createClass({
-    propTypes: {
-        className: React.PropTypes.any,
-        codeMirrorInstance: React.PropTypes.func,
-        defaultValue: React.PropTypes.string,
-        onChange: React.PropTypes.func,
-        onFocusChange: React.PropTypes.func,
-        onScroll: React.PropTypes.func,
-        options: React.PropTypes.object,
-        path: React.PropTypes.string,
-        value: React.PropTypes.string,
-        preserveScrollPosition: React.PropTypes.bool
-    },
     getDefaultProps() {
         return {
             preserveScrollPosition: false
